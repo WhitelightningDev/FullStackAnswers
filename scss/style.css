@@ -1,19 +1,23 @@
+/* Styling for links within the navbar */
 .navbar a {
-  color: #fff;
-  text-decoration: none;
-  padding: 0 20px;
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  padding: 0 20px; /* Add padding to each side of the link */
 }
 
+/* Styling for cards on hover */
 .card:hover {
-  transform: translateY(-5px);
-  transition: transform 0.3s ease;
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  transition: transform 0.3s ease; /* Smooth transition effect */
 }
 
+/* Styling for tooltip image containers */
 .tooltip-image-container {
-  max-width: 100px; /* Adjust the width as needed */
+  max-width: 100px; /* Set maximum width for the container */
   overflow: hidden; /* Hide overflow if image is larger than container */
 }
 
+/* Styling for image containers */
 .imagecontainer {
-  width: 30%;
+  width: 30%; /* Set width of the image container */
 }/*# sourceMappingURL=style.css.map */
