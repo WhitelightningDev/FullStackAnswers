@@ -20,4 +20,10 @@
 /* Styling for image containers */
 .imagecontainer {
   width: 30%; /* Set width of the image container */
+}
+
+/*Styling for github image*/
+.githubimage {
+  background-color: white; /* Set color of the background white*/
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
