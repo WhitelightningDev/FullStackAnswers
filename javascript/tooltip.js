@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     // Object to store image paths for each link
     var imagePaths = {
         'https://www.w3schools.com/whatis/whatis_fullstack.asp': 'images/w3schools.png',
@@ -15,7 +15,7 @@ $(document).ready(function() {
     };
 
     $('[data-toggle="tooltip"]').tooltip({
-        title: function() {
+        title: function () {
             // Get the URL of the hovered link
             var url = $(this).attr('href');
 
@@ -28,5 +28,5 @@ $(document).ready(function() {
             return tooltipContent;
         },
         html: true // Enable HTML content in tooltip
-    });   
+    });
 });
